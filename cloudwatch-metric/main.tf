@@ -3,7 +3,7 @@
 # Calling the cloudwatch module
 module "ec2_cpu_alarm" {
   source            = "/home/project/cloudwatch-metric/cloudwatch"        # Path to the module folder
-  instance_id       = "i-0123456789abcdef0"           # Replace with your EC2 instance ID
+  instance_id       = "i-0c3cfdbb9f0c839af"           # Replace with your EC2 instance ID
   sns_topic_name    = "high-cpu-usage-topic"
   notification_email = "manojgowdaac@gmail.com"       # Replace with your email address
   cpu_threshold     = 80
